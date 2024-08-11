@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="icon.png">
-    <title> ASHA MEDICALS </title>
+    <title>ASHA MEDICALS</title>
     <style>
         body {
             font-family: 'Work Sans', sans-serif;
@@ -23,7 +23,7 @@
             display: flex;
             justify-content: space-between;
         }
-        .content, .section, .product, .gallery, .footer {
+        .content, .section, .product, .gallery, .footer, .box {
             margin: 20px auto;
             padding: 20px;
             background-color: white;
@@ -60,7 +60,7 @@
             border-radius: 10px;
             box-shadow: 0 0 10px black;
         }
-         .content {
+        .content {
             margin-top: 0;
             background: url(bg.jpg);
             background-size: cover;
@@ -85,6 +85,12 @@
             border-left: 5px solid #ffc107;
             font-weight: bold;
         }
+        .box {
+            padding: 20px;
+            background-color: #e9ecef;
+            border-left: 5px solid #007bff;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -103,7 +109,8 @@
     <div class="content">
         <div id="about" class="section fade-in">
             <h2>Welcome to <strong>Asha Medicals</strong></h2>
-            <p>Asha Medicals is your trusted healthcare partner in Attakulangara. We provide a wide range of medications, health products, and expert advice to meet your medical needs. Our dedicated team is committed to ensuring your health and well-being by offering high-quality products and personalized service. Whether you need prescription medications, over-the-counter remedies, or wellness products, Asha Medicals is here for you.</p>
+            <p>Asha Medicals, inaugurated in 2015, is your trusted healthcare partner in Attakulangara. We provide a wide range of medications, health products, and expert advice to meet your medical needs. Our dedicated team is committed to ensuring your health and well-being by offering high-quality products and personalized service. Whether you need prescription medications, over-the-counter remedies, or wellness products, Asha Medicals is here for you.</p>
+            <p><strong>Shop Timings:</strong> Monday to Saturday, 8:00 AM to 10:00 PM. <strong>Sunday: Closed</strong>.</p>
         </div>
 
         <div id="products" class="product fade-in">
@@ -137,6 +144,13 @@
                         <li>Personal Care Items: Skin care lotions, shampoos, oral hygiene products.</li>
                     </ul>
                 </li>
+                <li><strong>Energy Drinks:</strong>
+                    <ul>
+                        <li>Electrolyte Beverages: ORS, Gatorade, Electral.</li>
+                        <li>Protein Shakes: Ensure, Boost, Horlicks.</li>
+                        <li>Glucose Drinks: Glucon-D, Dabur Glucose.</li>
+                    </ul>
+                </li>
                 <li><strong>Emergency Medicines:</strong>
                     <ul>
                         <li>Epinephrine (Epipen): For severe allergic reactions (anaphylaxis).</li>
@@ -148,6 +162,14 @@
                         <li>Diazepam: For controlling seizures and severe anxiety.</li>
                         <li>Naloxone: To reverse opioid overdoses.</li>
                         <li>Activated Charcoal: For treating certain types of poisoning.</li>
+                    </ul>
+                </li>
+                <li><strong>Tablets and Syrups:</strong>
+                    <ul>
+                        <li>Pain Relief Tablets: Paracetamol, ibuprofen, aspirin.</li>
+                        <li>Cough Syrups: Benadryl, Vicks Formula 44, Corex.</li>
+                        <li>Antibiotic Tablets: Amoxicillin, ciprofloxacin, azithromycin.</li>
+                        <li>Antacid Syrups: Gelusil, Digene, Mucaine.</li>
                     </ul>
                 </li>
             </ul>
@@ -163,16 +185,23 @@
             <img src="img1.jpeg" alt="Asha Medicals Store">
         </div>
 
+        <div id="nearby-hospitals" class="box fade-in">
+            <h2>Nearby Hospitals</h2>
+            <ul>
+                <li>SP Fort Hospital</li>
+                <li>PRS Hospital</li>
+                <li>Ananthapuri Hospital</li>
+                <li>Fort Government Hospital</li>
+            </ul>
+        </div>
+
         <div id="contact" class="footer fade-in">
-            <h2>Visit Us</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3946.209490943672!2d76.9472839!3d8.479000300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjgnNDQuNCJOIDc2wrA1Nic1MC4yIkU!5e0!3m2!1sen!2sin!4v1723312595177!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="contact">
-                <p><strong>Location:</strong> Attakulangara, Thiruvananthapuram, Kerala 695009</p>
-                <p><strong>Proprietor:</strong> Asha Sharath</p>
-                <a href="http://wa.me/919447309527">Contact Us on WhatsApp</a>
-            </div>
+            <h2>Contact Us</h2>
+            <p>Address: Asha Medicals, Attakulangara, Thiruvananthapuram</p>
+            <p>Phone: <a href="tel:+919447309527">9447309527</a></p>
+            <p>Email: <a href="mailto:ashamedicals@gmail.com">ashamedicals@gmail.com</a></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.1234567890!2d-122.41941548468145!3d37.77492957975981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c7f76b7e5%3A0x4e4c69dddb7ae6e1!2sGoogleplex!5e0!3m2!1sen!2sus!4v1598521458198!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
-
 </body>
 </html>
